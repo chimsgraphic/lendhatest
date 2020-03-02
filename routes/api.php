@@ -18,6 +18,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::get('/create-product', 'CreateProducts@create');
+Route::get('/all-products/', 'Products@products');
+Route::post('/delete-product/', 'DeleteProducts@delete');
+Route::post('/create-product', 'CreateProducts@create');
 Route::get('/update-product/{id}', 'CreateProducts@update');
 Route::get('/delete-product/{id}', 'DeleteProducts@delete');
