@@ -12,11 +12,13 @@ http://127.0.0.1:8000/api/create-product/
 }
             <p>
 http://127.0.0.1:8000/api/delete-product/
+                <p>
 {
 "id":"1"
 }
                 <p>
 http://127.0.0.1:8000/api/update-product/
+                    <p>
 {
 "id":"3"
 "name":"Bag",
